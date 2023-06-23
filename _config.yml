@@ -1,4 +1,4 @@
 url: 'http://www.brianyee.org'
 name: 'Brian Yee'
 description: 'Neither Here Nor There'
-theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
