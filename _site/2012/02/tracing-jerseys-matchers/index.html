@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>Tracing Jersey&amp;#8217;s Matchers</title>
+    <meta name="description" content="Finally found the answer to what I looking for: How to figure out what the heck Jersey was doing when matching resources. This answers it nicely:">
+    <link rel="canonical" href="http://localhost:4000/2012/02/tracing-jerseys-matchers/">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  tracing-jersey-8217-s-matchers">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">Menu</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul><li><a href="/">Home</a></li></ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/"></a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">Neither Here Nor There</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">Tracing Jersey’s Matchers
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+    <time class="page-date dt-published" datetime="2012-02-09T15:42:00-05:00"><a class="u-url" href="">February 9, 2012</a>
+</time>
+
+  </div>
+</div>
+
+        
+  <h3 class="page-taxonomies-title">Categories</h3>
+  <ul class="page-taxonomies"><li class="page-taxonomy">Uncategorized</li>
+  </ul>
+
+
+        
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>Finally found the answer to what I looking for: How to figure out what the heck <a href="http://jersey.java.net/">Jersey</a> was doing when matching resources. This answers it nicely:</p>
+
+<p><em>Jersey now supports the same feature implemented in 1.1.5-ea-SNAPSHOT. Adding the following servlet/filter initialization parameter enables tracing:</em></p>
+
+<blockquote>
+  <div class="CodeRay"><div class="code">```
+<init-param>
+Â Â Â  <param-name>com.sun.jersey.config.feature.Trace</param-name>
+Â Â Â  <param-value>true</param-value>
+</init-param>
+```
+
+</div></div>
+</blockquote>
+
+<p>Easy Peasy: <a href="http://blogs.oracle.com/sandoz/entry/tracing_in_jersey">http://blogs.oracle.com/sandoz/entry/tracing_in_jersey</a></p>
+
+<p><a href="http://blog.brianyee.org/tracing-jerseys-matchers">Permalink</a></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="http://blog.brianyee.org/tracing-jerseys-matchers#comment">Leave a comment »</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="http://feeds.feedburner.com/~r/brianyee/LmTz/~4/xUfwoyfTMr8" alt="" /></p>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/2011/12/empanadas/">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> Empanadas
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/2013/02/370/">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        Origins of the RQ-170 Sentinel
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>&copy; 2023 Brian Yee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>

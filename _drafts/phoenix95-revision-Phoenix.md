@@ -1,0 +1,15 @@
+---
+id: 96
+title: Phoenix
+date: '2008-12-28T22:52:56-05:00'
+author: brianyee0
+layout: revision
+guid: 'http://www.brianyee.org/2008/12/95-revision/'
+permalink: '/?p=96'
+---
+
+Here is a palm tree.
+
+It’s not really that warm in phoenix. But them again — it’s not that cold either. But yes, the sky is blue and the sun is out.
+
+[![](https://i0.wp.com/www.brianyee.org/wp-content/uploads/2008/12/p-640-480-db6cb4c7-208b-4f22-8714-7518daa22b88.jpeg?resize=225%2C300)](https://i0.wp.com/www.brianyee.org/wp-content/uploads/2008/12/p-640-480-db6cb4c7-208b-4f22-8714-7518daa22b88.jpeg)

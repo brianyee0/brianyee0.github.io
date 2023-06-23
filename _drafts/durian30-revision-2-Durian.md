@@ -1,0 +1,22 @@
+---
+id: 39
+title: Durian
+date: '2008-09-09T09:32:00-04:00'
+author: brianyee0
+layout: revision
+guid: 'http://www.brianyee.org/2008/09/30-revision-2/'
+permalink: '/?p=39'
+---
+
+If you’re not familiar, [Durian](http://en.wikipedia.org/wiki/Durian) is a fruit from southeast Asia that has an odor so <span style="text-decoration: line-through;">distinct</span> foul that it is banned from many places.Â Â Well, someone had some in my office yesterday — and after a little scare that there was a gas leak in the building (it turned out to just be Durian), I had to find out how it was, with the following conversation:
+
+> (3:24:41 PM) brian-yee: how was the durian ?  
+> (3:24:56 PM) brian-yee has set the topic to: Toybox 1 Questions and Durian, how was it?  
+> (3:25:15 PM) chris-czub: stinky and it left a funny garlicky/onion taste in my mouth  
+> (3:25:21 PM) chris-czub: it’s the most conflicted i’ve ever been over food  
+> (3:25:29 PM) chris-czub: because the initial taste is sweet and custardy  
+> (3:25:58 PM) chris-czub: then the taste of rotting sewage and onions sneaks up behind you and clobbers you, rubbing itself all over the inside of your mouth before laughing at your misfortune  
+> (3:25:59 PM) chris-czub: yes  
+> (3:26:21 PM) brian-yee: wow
+
+Thanks to [Chris](http://www.czub.us/) for his review of the Durian.
